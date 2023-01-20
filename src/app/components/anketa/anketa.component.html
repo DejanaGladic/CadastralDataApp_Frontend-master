@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html style="font-size: 16px;">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="page_type" content="np-template-header-footer-from-plugin">
+    <title>Page 1</title>
+    <link rel="stylesheet" href="nicepage.css" media="screen">
+<link rel="stylesheet" href="anketa.component.css" media="screen">
+    <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
+    <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
+    <meta name="generator" content="Nicepage 3.16.1, nicepage.com">
+    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
+    
+    
+    <script type="application/ld+json">{
+		"@context": "http://schema.org",
+		"@type": "Organization",
+		"name": "PIRprojekat",
+		"url": "index.html"
+}</script>
+    <meta property="og:title" content="Page 1">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#ec8700">
+    <link rel="canonical" href="index.html">
+    <meta property="og:url" content="index.html">
+  </head>
+  <body class="u-body"><header class="u-border-2 u-border-grey-75 u-clearfix u-grey-10 u-header u-header" id="sec-ea0a"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <p class="u-align-left u-large-text u-text u-text-palette-1-base u-text-variant u-text-1">Anketiranje korisnika - katastarski podaci</p>
+      </div></header> 
+    <section class="u-align-center u-clearfix u-expanded-width-xl u-palette-5-dark-3 u-section-1" id="carousel_d922">
+      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+        <div class="u-clearfix u-gutter-0 u-layout-wrap u-layout-wrap-1">
+          <div class="u-gutter-0 u-layout">
+            <div class="u-layout-row">
+              <div class="u-align-left u-container-style u-layout-cell u-shape-rectangle u-size-22 u-layout-cell-1">
+                <div class="u-container-layout u-container-layout-1">
+                  <p class="u-text u-text-1">
+                    Ovaj rad predstavlja studensko istraživanje koje za cilj ima uporednu analizu rasporeda elemenata na formama koje je potrebno popuniti katastarskim podacima. <br>
+                    Kao tim studenata koji je realizovao ovo istraživanje, zamolili bismo Vas da pre popunjavanja formi popunite kratku anketu. Svi podaci su anonimni, i služe samo u svrhe ovog istraživanja. <br>
+                    Nakon ankete popunjava se jedna, a zatim i druga forma. Podatke koje treba da unesete u formu dobićete oštampane na papiru od osobe zadužene za sprovođenje ovog eksperimenta. <br>
+                    Zamolili bismo Vas da koristite englesku tastaturu (bez karaktera š, č ,ć, đ i ž).
+                    
+                  </p>
+                </div>
+              </div>
+              <div class="u-align-left u-container-style u-layout-cell u-palette-2-base u-shape-rectangle u-size-38 u-layout-cell-2">
+                <div class="u-container-layout u-container-layout-2">
+                  <p class="u-text u-text-custom-color-1 u-text-2">
+                    <span class="u-text-white">Odaberite Vaš pol</span> 
+                  </p>
+                  <div class="u-form u-form-1">
+                    <form action="#" method="POST" class="u-clearfix u-form-spacing-50 u-form-vertical u-inner-form" #formControl= "ngForm" style="padding: 0px;" source="custom" name="form">
+                      <div class="u-form-group u-form-radiobutton u-form-group-1" name="pol" ngDefaultControl [(ngModel)] = "korisnikNovi.pol">
+                        <div class="u-form-radio-button-wrapper">
+                          <input type="radio" name="pol" value="muški" required="required">
+                          <label class="u-label u-label-1" for="radiobutton">muški</label>
+                          <br>
+                          <input type="radio" name="pol" value="ženski" required="required">
+                          <label class="u-label u-label-2" for="radiobutton">ženski</label>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-radiobutton u-form-group-2" name="starosnaGrupa" ngDefaultControl [(ngModel)] = "sGrID">
+                        <div class="u-form-radio-button-wrapper">
+                          <input type="radio" name="starosnaGrupa" value=1 required="required">
+                          <label class="u-label u-label-3" for="radiobutton">1 - 20</label>
+                          <br>
+                          <input type="radio" name="starosnaGrupa" value=2 required="required">
+                          <label class="u-label u-label-4" for="radiobutton">21 - 30</label>
+                          <br>
+                          <input type="radio" name="starosnaGrupa" value=3 required="required">
+                          <label class="u-label u-label-5" for="radiobutton">31 - 40</label>
+                          <br>
+                          <input type="radio" name="starosnaGrupa" value=4 required="required">
+                          <label class="u-label u-label-6" for="radiobutton">41 - 50</label>
+                          <br>
+                          <input type="radio" name="starosnaGrupa" value=5 required="required">
+                          <label class="u-label u-label-7" for="radiobutton">51 - 60</label>
+                          <br>
+                          <input type="radio" name="starosnaGrupa" value=6 required="required">
+                          <label class="u-label u-label-8" for="radiobutton">više od 60</label>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-group-3" name="iskustvaracunar" ngDefaultControl [(ngModel)] = "korisnikNovi.iskustvaracunar">
+                        <label for="text-3ccb" class="u-form-control-hidden u-label u-label-9"></label>
+                        <input type="text" id="text-3ccb" name="iskustvaRacunar" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required>
+                      </div>
+                      <div class="u-form-group u-form-group-4" name="brojsati" ngDefaultControl [(ngModel)] = "korisnikNovi.brojsati">
+                        <label for="text-312b" class="u-form-control-hidden u-label u-label-10"></label>
+                        <input type="text" placeholder="" id="text-312b" name="brojSati" class="u-border-1 u-border-grey-30 u-input u-input-rectangle u-white" required>
+                      </div>
+                      <div class="u-form-group u-form-radiobutton u-form-group-5" name="svakodnevnoKoriscenje" ngDefaultControl [(ngModel)] = "korisnikNovi.svakodnevnokoriscenje">
+                        <div class="u-form-radio-button-wrapper">
+                          <input type="radio" name="svakodnevnoKoriscenje" value=1 required="required">
+                          <label class="u-label u-label-11" for="radiobutton">Da</label>
+                          <br>
+                          <input type="radio" name="svakodnevnoKoriscenje" value=0 required="required">
+                          <label class="u-label u-label-12" for="radiobutton">Ne</label>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="u-form-group u-form-radiobutton u-form-group-6" name="iskustvakatastar" ngDefaultControl [(ngModel)] = "korisnikNovi.iskustvakatastar">
+                        <div class="u-form-radio-button-wrapper">
+                          <input type="radio" name="radiobutton" value=1>
+                          <label class="u-label u-label-13" for="radiobutton">Da</label>
+                          <br>
+                          <input type="radio" name="radiobutton" value=0>
+                          <label class="u-label u-label-14" for="radiobutton">Ne</label>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="u-align-left u-form-group u-form-submit">
+                        <button (click) = "add()" class="u-active-palette-2-light-3 u-border-none u-btn u-btn-submit u-button-style u-hover-palette-2-light-3 u-text-active-black u-text-hover-black u-text-palette-2-base u-white u-btn-1" [disabled]="!formControl.valid">Potvrdi</button>
+                        <input type="submit" value="submit" class="u-form-control-hidden" wfd-invisible="true">
+                      </div>
+                      <div class="u-form-send-message u-form-send-success" wfd-invisible="true"> Thank you! Your message has been sent. </div>
+                      <div class="u-form-send-error u-form-send-message" wfd-invisible="true"> Unable to send your message. Please fix errors then try again. </div>
+                      <input type="hidden" value="" name="recaptchaResponse" wfd-invisible="true">
+                    </form>
+                  </div>
+                  <p class="u-text u-text-custom-color-1 u-text-3">
+                    <span class="u-text-white">Odaberite Vaše starosno doba</span>
+                  </p>
+                  <p class="u-text u-text-4">Godine iskustva u korišćenju računara<span class="u-text-custom-color-1"> </span>
+                  </p>
+                  <p class="u-text u-text-5">Prosečno dnevno provodjenje vremena za računarom;<span class="u-text-custom-color-1"></span>
+                  </p>
+                  <p class="u-text u-text-6">Da li Vaša profesija podrazumeva često korišćenje računara&nbsp;<span class="u-text-custom-color-1"></span>
+                  </p>
+                  <p class="u-text u-text-7">Da li imate iskustva u radu sa katastarskim tipovima podataka&nbsp;<span class="u-text-custom-color-1"></span>
+                  </p>
+                  <div class="u-border-1 u-border-grey-dark-1 u-line u-line-horizontal u-line-1"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <footer class="u-align-center u-clearfix u-footer u-grey-10 u-footer" id="sec-9b4d"><div class="u-clearfix u-sheet u-sheet-1"></div></footer>
+    <section class="u-backlink u-clearfix u-grey-80">
+      
+      <p class="u-text">
+        <span>Septembar, 2021.</span>
+      </p>
+    </section>  
+  </body>
+</html>
