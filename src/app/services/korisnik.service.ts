@@ -19,6 +19,7 @@ export class KorisnikService {
 
   public getKorisnikByID(korisnikid: number) : Observable<any> {
     return this.httpClient.get(`${KORISNIK_ID_URL}/${korisnikid}`);
+	
   }
   
 }
