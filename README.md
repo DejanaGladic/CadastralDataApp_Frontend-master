@@ -1,9 +1,9 @@
 # CatastralDataApp
 
-Aplikacija kreirana u cilju empirijkog istraživanja čiji će rezultati dovesti do zaključka koji raspored elemenata na formi za popunjavanje podataka ima bolje performanse u vidu vremena koje je korisniku potrebno za popunjavanje forme, i greške učinjenje prilikom popunjavanja.
+The application was created for the purpose of empirical research, the results of which will lead to the conclusion that the arrangement of elements on the data filling form has better performance in terms of the time it takes the user to fill out the form, and the errors made during filling.
 
 ![image](https://user-images.githubusercontent.com/40810226/135462362-ae628ecb-d8d8-426e-b837-b942e83f67a4.png)
 
-### Aplikaciji postavljenoj na Netlify serveru može se pristupiti putem sledećeg linka: https://gracious-davinci-de7294.netlify.app/pocetna
+### The application hosted on the Netlify server can be accessed through the following link: https://gracious-davinci-de7294.netlify.app/pocetna
 
 
